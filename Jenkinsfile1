@@ -4,6 +4,7 @@ stages {
  stage ("Build") {
  steps {
       echo 'Build stage in progress is on going '
+      echo 'build is completing'
       sleep 2
       echo 'Build stage completed !!!!'
 }
